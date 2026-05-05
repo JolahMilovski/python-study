@@ -91,4 +91,41 @@ print(min(list_of_square))
 print(max(list_of_square))    
 print(sum(list_of_square))    
 
+#SLICING
+
+players = ['charles', 'nisko', 'martina', 'notikinta', 'elina', 'emanuele']
+players_slice = players[0:2]
+print(players_slice)
+print(players[1:3])
+print(players[1:])
+
+print(players[-2:])
+
+for n in players[:2]:
+    print(n.title())
+
+print(f"The first thee players in list is {players[0:2]}")
+
+middle_index = len(players) // 2
+print(middle_index)
+print(f"The first thee players in list is {players[middle_index:middle_index+2]}")
+
+first_pizza = ['kolbasa', 'testo', 'meet', 'chees', 'pipe']
+print(first_pizza)
+first_pizza.append('ogurec')
+for n in first_pizza:
+    print(n)
+   
+
+second_pizza = ['kolbasa', 'greep list', 'testo', 'egg', 'chees', 'pipe']
+print(second_pizza)
+second_pizza.append('rulets')
+for n in second_pizza:
+    print(n)
+
+
+
+
+
+
 
